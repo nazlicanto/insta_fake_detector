@@ -5,18 +5,18 @@
 This repository contains a machine-learning pipeline to detect fake Instagram accounts. The dataset consists of various attributes of Instagram profiles, and the goal is to predict whether a given account is fake or real.
 
 The dataset contains the following columns:
-profile pic: Binary attribute indicating if an account has a profile picture.
-nums/length username: Proportion of numerical characters in the username.
-fullname words: Number of words in the account holder's name.
-nums/length fullname: Proportion of numerical characters in the full name.
-name==username: Binary feature indicating if the account holder's name matches the username.
-description length: Length of the profile's description (bio).
-external URL: Binary feature indicating if there's an external website link in the profile's bio.
-private: Binary attribute showing if the profile is private.
-#posts: Number of posts on the profile.
-#followers: Follower count for the account.
-#follows: Number of accounts the profile is following.
-fake: Target variable. 1 if the account is fake, 0 otherwise.
+profile pic: Binary attribute indicating if an account has a profile picture.  
+nums/length username: Proportion of numerical characters in the username.  
+fullname words: Number of words in the account holder's name.  
+nums/length fullname: Proportion of numerical characters in the full name.  
+name==username: Binary feature indicating if the account holder's name matches the username.  
+description length: Length of the profile's description (bio).  
+external URL: Binary feature indicating if there's an external website link in the profile's bio.  
+private: Binary attribute showing if the profile is private.  
+#posts: Number of posts on the profile.  
+#followers: Follower count for the account.  
+#follows: Number of accounts the profile is following.  
+fake: Target variable. 1 if the account is fake, 0 otherwise.  
 
 ## Exploratory Data Analysis
 The EDA process involves:
