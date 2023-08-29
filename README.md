@@ -31,13 +31,18 @@ Activity Ratio: Measures an account's posting activity relative to its follower 
 Followers > #Follows?: Binary feature indicating if an account has more followers than the number of accounts it follows.
 
 ## Modeling
-Random Forest (used as a baseline)
-XGBoost
-LGBM
-CatBoost
-AdaBoost
+#### Random Forest (used as a baseline)
+#### XGBoost
+#### LGBM
+#### CatBoost
+#### AdaBoost
 The models were evaluated using the AUC-ROC score. CatBoost achieved the highest performance.
+
+![download (1)](https://github.com/nazlicanto/insta_fake_detector/assets/117021695/f0cb7ed6-852b-4091-98df-e972474cfe17)
 
 ## Model Explainability
 The SHAP library was used to understand the importance of each feature in the model's predictions. This helps in understanding how the model works and which features are most influential in predicting the target variable.
+
+![image](https://github.com/nazlicanto/insta_fake_detector/assets/117021695/674b635b-a87a-4782-a6f3-bc4bb7bc3b73)
+
 
